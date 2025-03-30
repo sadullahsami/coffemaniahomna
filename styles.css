@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h2 {
+    color: #4CAF50;
+    font-size: 24px;
+}
+h3 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    background: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.menu-item span {
+    flex: 1;
+}
+.menu-item input {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.menu-item button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.menu-item button:hover {
+    background: #45a049;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover {
+    background: #45a049;
+}
+.bill {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e3e3e3;
+    border-radius: 5px;
+    text-align: left;
+}
+#print-btn {
+    background: #007BFF;
+    margin-top: 10px;
+}
+#print-btn:hover {
+    background: #0056b3;
+}
